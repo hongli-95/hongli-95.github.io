@@ -18,13 +18,13 @@
 </head>
 
 <!-- set id for body of each page, so I could style them accordingly in the css file-->
-<body id="homePage">
+<body>
     
-    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-sm py-0 fixed-top">
         <a href="index.html" class="navbar-brand">Home</a>
 
         <!-- a hamburger button with collapsed info/options -->
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle Navigation">
+        <button onclick="changeColor()" class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle Navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -44,6 +44,8 @@
         </div>
     </nav>
 
+<section class="container-fluid mainContent">
+
     
     <section class="container-fluid">
         <div class="jumbotron jumbotron-fluid">
@@ -59,13 +61,15 @@
     </section>
 
     <section class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12 text-center text-dark">
-                    <p id="iegalInfo">Copyright © 2017 - 2020 Hong Li</p>
-                </div>
+        <div class="row">
+            <div class="col-lg-12 text-center text-dark">
+                <p id="iegalInfo">Copyright © 2017 - 2020 Hong Li</p>
             </div>
-        </section>
-    
+        </div>
+    </section>
+
+</section>
+
 
     <!-- all 4 are only for the navbar collapse effect -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
