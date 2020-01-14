@@ -1,29 +1,7 @@
-#homePage {
-    background: rgb(174, 246, 255);
-    font-family: 'Montserrat', sans-serif;
-}
-
-/*styling for the resume page*/
-#resumePage {
+/*styling for the background*/
+body {
    background: rgb(174, 246, 255);
     font-family: 'Montserrat', sans-serif;
-}
-
-/*styling for the about page*/
-#projectPage {
-   background: rgb(174, 246, 255);
-    font-family: 'Montserrat', sans-serif;
-}
-
-/*styling for the reservation page*/
-#contactPage {
-    font-family: 'Montserrat', sans-serif;
-}
-
-
-/*change the color of the Contact page*/
-#contactPage {
-   background: rgb(174, 246, 255);
 }
 
 
@@ -69,6 +47,10 @@ body {
     transition: 0.2s;
 }
 
+#mainNavbar {
+    background-color: rgba(91, 148, 255, 0.85);
+}
+
 /*styling for all the h1*/
 h1 {
     font-weight: 100;
@@ -79,11 +61,11 @@ h3 {
     font-weight: bold;
 }
 
-/*styling for the navigation bar when the users scroll down on the page*/
+/* styling for the navigation bar when the users scroll down on the page
 .scroll {
     background-color: rgba(91, 148, 255, 0.85);
     transition: 0.2s;
-}
+} */
 
 /*styling for all the jumbotrons*/
 .jumbotron {
