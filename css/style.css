@@ -1,0 +1,127 @@
+#homePage {
+    background: rgb(174, 246, 255);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*styling for the resume page*/
+#resumePage {
+   background: rgb(174, 246, 255);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*styling for the about page*/
+#projectPage {
+   background: rgb(174, 246, 255);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*styling for the reservation page*/
+#contactPage {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*change the color of the Contact page*/
+#contactPage {
+   background: rgb(174, 246, 255);
+}
+
+
+/*styling navigation bar*/
+#mainNavbar .navbar-brand {
+    color: #fd8f35;
+    font-size: 2.5rem;
+    transition: 0.2s;
+}
+
+/*navigation bar hover effect, works with js*/
+#mainNavbar .navbar-brand:hover {
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.75);
+    transition: 0.25s;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/*animation for the navigation bar on all the pages*/
+body #mainNavbar {
+    font-size: 1.8rem;
+    font-weight: 100;
+    transition: background ease-out 0.2s;
+}
+
+/*all the body takes up 100% of the page, might be unnecessary, but I leave it here so I don't screw other things up since it was running properly*/
+body {
+    width: 100%;
+}
+
+/*styling for navigation bar items*/
+#mainNavbar .nav-link {
+    color: rgb(0, 0, 0);
+    transition: color 0.2s;
+}
+
+/*navigation bar items hover-over effect */
+#mainNavbar .nav-link:hover {
+    color: rgb(255, 159, 80);
+    transition: 0.2s;
+}
+
+/*styling for all the h1*/
+h1 {
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+/*styling for the navigation bar when the users scroll down on the page*/
+.scroll {
+    background-color: rgba(91, 148, 255, 0.85);
+    transition: 0.2s;
+}
+
+/*styling for all the jumbotrons*/
+.jumbotron {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 100px;
+}
+
+/*change font size for all the fonts in all the jumbotrons*/
+.jumbotron p {
+    font-size: 1.0em;
+}
+
+/*styling for the fonts with a class named text-center (bootstrap class)*/
+.text-center {
+    line-height: 2;
+}
+
+/* styling for the table */
+.table {
+    background-color: rgba(99, 99, 99, 0.7);
+    color: rgba(255, 168, 68, 0.7);
+    font-weight: 1000;
+}
+
+/* styling for header of the table */
+thead {
+    font-size: 2.5rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/*styling for the footer*/
+#iegalInfo {
+    color: rgba(0, 0, 0, 0.85);
+}
+
+/*change the size of h1 when the page shrinks*/
+@media (max-width: 1200px) {
+    #heading h1 {
+        font-size: 2rem;
+    }
+}
