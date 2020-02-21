@@ -41,6 +41,10 @@ body {
     transition: color 0.2s;
 }
 
+#profilePic {
+    max-width: 20%;
+}
+
 /*navigation bar items hover-over effect */
 #mainNavbar .nav-link:hover {
     color: rgb(255, 159, 80);
