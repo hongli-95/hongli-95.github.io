@@ -1,4 +1,4 @@
-// // <!-- a little js and jQuery for the navbar visual effect (Need to learn more about this)
+// // <!-- a little js and jQuery for the navbar visual effect
 // $(function () {
 //     $(document).scroll(function() {
 //         var $nav = $("#mainNavbar");
