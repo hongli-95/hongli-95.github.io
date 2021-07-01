@@ -7,7 +7,7 @@
 
 /*navigation bar hover effect, works with js*/
 #mainNavbar .navbar-brand:hover {
-	color: #ff8800;
+	color: #ffffff;
 	text-shadow: 2px 2px rgba(71, 71, 71, 0.75);
 	transition: 0.25s;
 }
@@ -26,7 +26,7 @@ body #mainNavbar {
 
 body {
 	width: 100%;
-	background-image: url('https://images.unsplash.com/photo-1585773816589-99af4e1711c1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1096&q=80');
+	background-image: url('https://images.unsplash.com/photo-1519972064555-542444e71b54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80');
 	background-repeat: none;
 	background-size: cover;
 	background-attachment: fixed;
@@ -46,7 +46,7 @@ body {
 
 /*navigation bar items hover-over effect */
 #mainNavbar .nav-link:hover {
-	color: #ff8800;
+	color: #ffffff;
 	text-shadow: 2px 2px rgba(65, 65, 65, 0.75);
 	transition: 0.2s;
 }
@@ -105,10 +105,10 @@ h3 {
 }
 
 /*styling for the footer*/
-/* #iegalInfo {
+#iegalInfo {
 	color: rgba(0, 0, 0, 0.85);
 	display: none;
-} */
+}
 
 /*change the size of h1 when the page shrinks*/
 @media (max-width: 1200px) {
