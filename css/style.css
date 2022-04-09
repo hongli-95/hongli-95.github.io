@@ -1,118 +1,153 @@
 /*styling navigation bar*/
 #mainNavbar .navbar-brand {
-	color: #000000;
-	font-size: 2.5rem;
-	transition: 0.2s;
+  color: #404a99;
+  font-size: 2.5rem;
+  transition: 0.2s;
 }
 
 /*navigation bar hover effect, works with js*/
 #mainNavbar .navbar-brand:hover {
-	color: #ffffff;
-	text-shadow: 2px 2px rgba(71, 71, 71, 0.75);
-	transition: 0.25s;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+  transition: 0.25s;
 }
 
 .content {
-	margin-top: 100px;
-	margin-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 /*animation for the navigation bar on all the pages*/
 body #mainNavbar {
-	font-size: 1.8rem;
-	font-weight: 100;
-	transition: background ease 0.3s;
+  font-size: 1.8rem;
+  font-weight: 100;
+  transition: background ease 0.3s;
 }
 
 body {
-	width: 100%;
-	background-color: rgb(0, 183, 255);
-	background-repeat: none;
-	background-size: cover;
-	background-attachment: fixed;
-	font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  background-image: url("../images/miguel-alcantara-ltBeID9_BwI-unsplash.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Montserrat", sans-serif;
 }
 
 #projectPage img {
-	max-width: 40vw;
-	border-radius: 2%;
+  max-width: 40vw;
+  border-radius: 2%;
+}
+
+#projectPage img {
+  max-width: 40vw;
+  border-radius: 2%;
+}
+
+#projectPage img.animated-gif {
+  max-width: 86vw;
+  border-radius: 2%;
 }
 
 /*styling for navigation bar items*/
 #mainNavbar .nav-link {
-	color: rgb(0, 0, 0);
-	transition: color 0.2s;
+  color: #404a99;
+  transition: color 0.2s;
 }
 
 /*navigation bar items hover-over effect */
 #mainNavbar .nav-link:hover {
-	color: #ffffff;
-	text-shadow: 2px 2px rgba(65, 65, 65, 0.75);
-	transition: 0.2s;
+  color: #ffffff;
+  text-shadow: 2px 2px rgba(65, 65, 65, 0.75);
+  transition: 0.2s;
 }
 
 #profilePic {
-	max-width: 40%;
-	animation: 500ms ease-in 0s 1 opacityChange;
+  max-width: 30%;
+  animation: 500ms ease-in 0s 1 opacityChange;
 }
-
-/* .navbar-collapse {
-	background-color: white;
-} */
 
 /*styling for all the h1*/
 h1 {
-	font-weight: 100;
-	font-size: 2.5rem;
+  font-weight: 100;
+  font-size: 2.5rem;
 }
 
 h3 {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 /*styling for the navigation bar when the users scroll down on the page*/
 .scroll {
-	background-color: rgba(255, 255, 255, 0.85);
-	transition: 0.2s;
-	border-radius: 1%;
+  background-color: rgba(255, 255, 255, 0.85);
+  transition: 0.2s;
+  border-radius: 1%;
+}
+
+.carousel.slide {
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 100px;
+  margin-bottom: auto;
+  border-radius: 10px;
+  animation: 500ms ease-in 0s 1 opacityChange;
+}
+
+.carousel.slide img {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+}
+
+.carousel-caption {
+  color: white;
+  text-shadow: black 2px 2px 3px;
+}
+
+.carousel-caption a:hover {
+  color: rgb(108, 211, 255);
+  text-shadow: black 2px 2px 3px;
+}
+
+.carousel-caption a:link,
+a:visited {
+  color: white;
 }
 
 /*styling for all the jumbotrons*/
 .jumbotron {
-	background-color: rgba(255, 255, 255, 0.3);
-	margin-top: 100px;
-	animation: 300ms ease-in 0s 1 opacityChange;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 80px 0 0 0;
+  animation: 500ms ease-in 0s 1 opacityChange;
 }
 
 /*change font size for all the fonts in all the jumbotrons*/
 .jumbotron p {
-	font-size: 1em;
+  font-size: 1em;
 }
 
 /*styling for the fonts with a class named text-center (bootstrap class)*/
 .text-center {
-	line-height: 2;
+  line-height: 2;
 }
 
 @keyframes opacityChange {
-	0% {
-		opacity: 0;
-	}
+  0% {
+    opacity: 0;
+  }
 
-	100% {
-		opacity: 1;
-	}
+  100% {
+    opacity: 1;
+  }
 }
 
 /*styling for the footer*/
 #iegalInfo {
-	color: rgba(0, 0, 0, 0.85);
-	display: none;
+  color: rgba(0, 0, 0, 0.85);
+  display: none;
 }
 
 /*change the size of h1 when the page shrinks*/
 @media (max-width: 1200px) {
-	#heading h1 {
-		font-size: 2rem;
-	}
+  #heading h1 {
+    font-size: 2rem;
+  }
 }

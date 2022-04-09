@@ -1,104 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-		<title>Hong Li :: Projects</title>
+    <title>Hong Li :: Projects</title>
 
-		<!-- Bootstrap css -->
-		<link
-			rel="stylesheet"
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-			crossorigin="anonymous"
-		/>
+    <!-- Bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
 
-		<!-- Google fonts -->
-		<link
-			href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
-			rel="stylesheet"
-		/>
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+      rel="stylesheet"
+    />
 
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-	</head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
 
-	<!-- set id for body of each page, so I could style them accordingly in the css file-->
-	<body id="projectPage">
-		<nav
-			id="mainNavbar"
-			class="navbar navbar-dark navbar-expand-md py-0 fixed-top"
-		>
-			<a href="index.html" class="navbar-brand">Home</a>
+  <!-- set id for body of each page, so I could style them accordingly in the css file-->
+  <body id="projectPage">
+    <nav
+      id="mainNavbar"
+      class="navbar navbar-dark navbar-expand-md py-0 fixed-top"
+    >
+      <a href="index.html" class="navbar-brand">Home</a>
 
-			<!-- a hamburger button with collapsed info/options -->
-			<button
-				id="hamburger"
-				class="navbar-toggler"
-				data-toggle="collapse"
-				data-target="#navLinks"
-				aria-label="Toggle Navigation"
-			>
-				<span class="navbar-toggler-icon"></span>
-			</button>
+      <!-- a hamburger button with collapsed info/options -->
+      <button
+        id="hamburger"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navLinks"
+        aria-label="Toggle Navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-			<!-- This is what is will be collapsed with the menu -->
-			<div id="navLinks" class="collapse navbar-collapse">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a href="resume.html" class="nav-link">Résumé</a>
-					</li>
-					<li class="nav-item">
-						<a href="projects.html" class="nav-link">Projects</a>
-					</li>
-					<li class="nav-item">
-						<a href="contact.html" class="nav-link">Contact</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
+      <!-- This is what is will be collapsed with the menu -->
+      <div id="navLinks" class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="resume.html" class="nav-link">Résumé</a>
+          </li>
+          <li class="nav-item">
+            <a href="projects.html" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-		<!-- main content of the page -->
-		<section class="container-fluid">
-			<div class="jumbotron">
-				<div class="row">
-					<div class="col-md-6 text-center">
-						<img src="images/main.PNG" alt="main_window" />
-					</div>
-					<div class="col-md-6 text-left">
-						<h4>A mini game develoved in C# with GUI.</h4>
-						<h4>Allows users to enter, edit, and delete questionnaire.</h4>
-						<a href="https://github.com/hongli-95/Trivia">Code on Github</a>
-					</div>
-				</div>
-			</div>
-		</section>
+    <!-- main content of the page -->
+    <section class="container-fluid">
+      <div id="carouselCaptions" class="carousel slide" data-ride="carousel">
+        <!-- Add/remove slide Indicators: li  -->
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselCaptions"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselCaptions" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <p>
+              <img
+                src="images/main.PNG"
+                class="d-block w-100"
+                alt="Trivia Game with C#"
+              />
+            </p>
 
-		<section class="container-fluid">
-			<div class="row">
-				<div class="col-lg-12 text-center text-dark">
-					<p id="iegalInfo">Copyright © 2017 - 2021 Hong Li</p>
-				</div>
-			</div>
-		</section>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Trivia Game with C#</h5>
+              <p>Player can also add, edit, delete questionnaire.</p>
+              <a href="https://github.com/hongli-95/Trivia">Github Link</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/svelte-map-demo.gif"
+              class="d-block w-100 animated-gif"
+              alt="World Map with Svelte"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Interactive World Map with Svelte (WIP)</h5>
+              <p>Data visualization showing energy data of each country.</p>
+              <a href="https://github.com/hongli-95/svelte-map">Github Link</a>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-target="#carouselCaptions"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-target="#carouselCaptions"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+    </section>
 
-		<!-- all 4 are only for the navbar collapse effect -->
-		<script
-			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-			crossorigin="anonymous"
-		></script>
-		<script src="js/style.js"></script>
-	</body>
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 text-center text-dark">
+          <p id="iegalInfo">Copyright © 2017 - 2022 Hong Li</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- all 4 are only for the navbar collapse effect -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/style.js"></script>
+  </body>
 </html>
