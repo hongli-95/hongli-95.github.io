@@ -1,8 +1,14 @@
 /*styling navigation bar*/
 #mainNavbar .navbar-brand {
-  color: #404a99;
+  color: #505dbd;
   font-size: 2.5rem;
   transition: 0.2s;
+}
+
+/*styling for navigation bar items*/
+#mainNavbar .nav-link {
+  color: #505dbd;
+  transition: color 0.2s;
 }
 
 /*navigation bar hover effect, works with js*/
@@ -45,12 +51,6 @@ body {
 
 #projectPage img.animated-gif {
   max-width: 86vw;
-}
-
-/*styling for navigation bar items*/
-#mainNavbar .nav-link {
-  color: #404a99;
-  transition: color 0.2s;
 }
 
 /*navigation bar items hover-over effect */
@@ -97,8 +97,8 @@ h3 {
 }
 
 .carousel-caption {
-  color: white;
-  text-shadow: black 2px 2px 3px;
+  color: #383838;
+  text-shadow: rgb(0, 0, 0) 2px 2px 3px;
 }
 
 .carousel-caption a:hover {
@@ -108,7 +108,7 @@ h3 {
 
 .carousel-caption a:link,
 a:visited {
-  color: white;
+  color: #f8f8f8;
 }
 
 /*styling for all the jumbotrons*/
