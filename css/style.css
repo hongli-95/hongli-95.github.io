@@ -1,0 +1,201 @@
+body {
+  position: relative;
+  font-family: 'Inter', sans-serif;
+  background-color: #eae7dc;
+  color: #565656;
+}
+
+#navbarNav {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: 0.2s ease-in-out;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  gap: 30px;
+}
+
+#navbarNav .nav-link {
+  font-size: 1.3rem;
+  font-weight: 100;
+  transition: 0.3s;
+}
+
+#navbarNav .nav-link:hover {
+  color: #e85a4f;
+  text-shadow: 0 0 10px #e85a4f;
+}
+
+#navbarNav .active {
+  font-weight: 500;
+  color: #e85a4f;
+  text-shadow: 0 0 10px #e85a4f;
+}
+
+#navbarNav .active:hover {
+  color: #e85a4f;
+  text-shadow: 0 0 10px #e85a4f;
+}
+
+.section {
+  padding: 80px 50px;
+  margin-bottom: 20px;
+}
+
+.section-title::after {
+  border-bottom: 1px solid #565656;
+  content: '';
+  display: block;
+}
+
+#Home {
+  padding-top: 90px;
+}
+
+.myName {
+  display: flex;
+}
+
+.section-title {
+  padding-bottom: 20px;
+}
+
+#Home-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  line-height: 50px;
+  padding: 100px 300px;
+}
+
+#Home-info h1 {
+  font-size: 90px;
+  font-weight: 600;
+  color: #e85a4f;
+  text-shadow: 4px 4px 0 rgb(0, 203, 135);
+}
+
+.myName .letter {
+  transition: all 0.2s ease-in-out;
+}
+
+.myName .letter:hover {
+  transform: rotate(15deg) scale(1.2);
+  cursor: pointer;
+}
+
+.about-content {
+  padding: 10px 70px;
+}
+
+.about-content p {
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.about-content img {
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #565656;
+  transition: 0.2s ease-in-out;
+}
+
+.about-content img:hover {
+  transform: scale(1.2);
+}
+
+.about-content .btn {
+  width: 100%;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.about-content .btn:hover {
+  background-color: #e85a4f;
+}
+
+.skills-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10rem;
+  margin: 50px;
+}
+
+.skills-content h5 {
+  line-height: 50px;
+}
+
+.skills-icons span {
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.fa-brands .fa-github .fa-3x:hover {
+  color: aquamarine;
+}
+
+.projects-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.project-card {
+  max-width: 25%;
+}
+
+.project-card img {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.project-card img:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 5px #565656;
+}
+
+.project-card p {
+  padding-top: 20px;
+}
+
+.project-card span {
+  padding: 0 10px;
+}
+
+#Footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.footer-content {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  text-align: center;
+  gap: 5rem;
+  color: white;
+}
+
+.footer-content p {
+  padding: 5px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-bottom: 5px;
+}
