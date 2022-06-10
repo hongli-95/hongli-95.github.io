@@ -108,6 +108,7 @@ body {
   border-radius: 10px;
   transition: 0.2s ease-in-out;
   box-shadow: 1px 1px 3px #565656;
+  margin-bottom: 50px;
 }
 
 .about-content img:hover {
@@ -221,17 +222,8 @@ body {
     overflow-x: hidden;
   }
 
-  .about-content {
-    padding: 10px 5px;
-    width: 95vw;
-    overflow-x: hidden;
-  }
-
   .about-content img {
     max-width: 70%;
     width: 95vw;
-  }
-
-  .skills-content {
   }
 }
