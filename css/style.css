@@ -118,15 +118,28 @@ body {
 
 .about-content .btn {
   width: 100%;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   letter-spacing: 3px;
   margin-top: 30px;
   border-radius: 10px;
   min-width: 50px;
 }
 
-.about-content .btn:hover {
+.btn-team {
+  display: flex;
+  gap: 20px;
+}
+
+.about-content .resume-btn:hover {
   background-color: #e85a4f;
+}
+
+.about-content .linkedin-btn:hover {
+  background-color: #0077b5;
+}
+
+.about-content .github-btn:hover {
+  background-color: #6cc644;
 }
 
 .skills-icons {
@@ -201,13 +214,6 @@ body {
 
 .footer-content p {
   padding: 5px;
-}
-
-.footer-icons {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  padding-bottom: 5px;
 }
 
 @media (max-width: 978px) {
